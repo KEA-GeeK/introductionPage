@@ -1,1 +1,0 @@
-Kakao Enterprise Academy 3기 2주차 과제입니다.
