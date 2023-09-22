@@ -163,15 +163,15 @@ const Frame2 = () => {
   const navigate = useNavigate();
 
   const onHomeTextClick = useCallback(() => {
+    navigate("/");
+  }, [navigate]);
+
+  const onTeamText1Click = useCallback(() => {
     navigate("/frame-1");
   }, [navigate]);
 
-  const onVisionText1Click = useCallback(() => {
-    navigate("/frame-3");
-  }, [navigate]);
-
   const onValueTextClick = useCallback(() => {
-    navigate("/");
+    navigate("/frame-3");
   }, [navigate]);
 
   return (
@@ -196,8 +196,8 @@ const Frame2 = () => {
       </Div1>
       <FrameInner />
       <Home onClick={onHomeTextClick}>Home</Home>
-      <Team>Team</Team>
-      <Vision2 onClick={onVisionText1Click}>Vision</Vision2>
+      <Team onClick={onTeamText1Click}>Team</Team>
+      <Vision2 >Vision</Vision2>
       <Value onClick={onValueTextClick}>Value</Value>
       <Geeklogo1Icon alt="" src="/geeklogo-1@2x.png" />
     </VisionParentRoot>
