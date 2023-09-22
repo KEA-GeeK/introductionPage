@@ -118,61 +118,62 @@ const RectangleDiv = styled.div`
   position: absolute;
   top: 0px;
   left: 0px;
+  font-size: var(--font-size-mini);
   background-color: var(--color-white);
-  width: 1005px;
+  width: 100%; /* Adjusted to cover the entire width */
   height: 63px;
 `;
 const Home = styled.div`
   position: absolute;
   top: 0px;
-  left: 677px;
+  left: 66%; /* Adjusted to cover the right side */
   font-size: var(--font-size-mini);
-  color: var(--color-gray-400);
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 66px;
+  width: 23%; /* Adjusted to cover the right side */
   height: 63px;
-  cursor: pointer;
 `;
+
 const Team = styled.div`
   position: absolute;
   top: 0px;
-  left: 755px;
+  left: 74%; /* Adjusted to cover the right side */
   font-size: var(--font-size-mini);
-  color: var(--color-gray-400);
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 66px;
+  width: 19%; /* Adjusted to cover the right side */
   height: 63px;
   cursor: pointer;
 `;
+
 const Vision = styled.div`
   position: absolute;
   top: 0px;
-  left: 833px;
+  left: 82%; /* Adjusted to cover the right side */
   font-size: var(--font-size-mini);
-  color: var(--color-gray-400);
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 66px;
-  height: 63px;
-`;
-const Value = styled.div`
-  position: absolute;
-  top: 0px;
-  left: 911px;
-  font-size: var(--font-size-mini);
-  color: var(--color-gray-400);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 66px;
+  width: 15%; /* Adjusted to cover the right side */
   height: 63px;
   cursor: pointer;
 `;
+
+const Value = styled.div`
+  position: absolute;
+  top: 0px;
+  left: 89%; /* Adjusted to cover the right side */
+  font-size: var(--font-size-mini);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 11%; /* Adjusted to cover the right side */
+  height: 63px;
+  cursor: pointer;
+`;
+
 const Geeklogo1Icon = styled.img`
   position: absolute;
   top: 0px;
@@ -220,7 +221,7 @@ const Frame1 = () => {
       </Role1Epnjh0807gachonackr>
       <FrameInner alt="" src="/ellipse-4@2x.png" />
       <Role4Eastlighting1gachonac>
-        <P>동현</P>
+        <P>김동현</P>
         <Epnjh0807gachonackr>Role4</Epnjh0807gachonackr>
         <Epnjh0807gachonackr>eastlighting1@gachon.ac.kr</Epnjh0807gachonackr>
       </Role4Eastlighting1gachonac>
