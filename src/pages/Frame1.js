@@ -198,15 +198,15 @@ const Frame1 = () => {
   const navigate = useNavigate();
 
   const onHomeTextClick = useCallback(() => {
-    navigate("/frame-1");
+    navigate("/");
   }, [navigate]);
 
-  const onTeamTextClick = useCallback(() => {
+  const onVisionTextClick = useCallback(() => {
     navigate("/frame-2");
   }, [navigate]);
 
   const onValueTextClick = useCallback(() => {
-    navigate("/");
+    navigate("/frame-3");
   }, [navigate]);
 
   return (
@@ -245,8 +245,8 @@ const Frame1 = () => {
       <FrameChild2 alt="" src="/ellipse-4@2x.png" />
       <RectangleDiv />
       <Home onClick={onHomeTextClick}>Home</Home>
-      <Team onClick={onTeamTextClick}>Team</Team>
-      <Vision>Vision</Vision>
+      <Team>Team</Team>
+      <Vision onClick={onVisionTextClick}>Vision</Vision>
       <Value onClick={onValueTextClick}>Value</Value>
       <Geeklogo1Icon alt="" src="/geeklogo-1@2x.png" />
     </LineParentRoot>
