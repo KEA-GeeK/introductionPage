@@ -1,0 +1,113 @@
+import { useCallback } from "react";
+import styled from "styled-components";
+import { useNavigate } from "react-router-dom";
+import logoImg from '../img/logoNoName.png';
+
+const Geeklogo1Icon = styled.img`
+  position: absolute;
+  top: 111px;
+  left: 315px;
+  width: 374px;
+  height: 393px;
+  object-fit: cover;
+`;
+const MainChild = styled.div`
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: var(--color-white);
+  width: 1005px;
+  height: 63px;
+`;
+const Home = styled.div`
+  position: absolute;
+  top: 0px;
+  left: 677px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 66px;
+  height: 63px;
+`;
+const Team = styled.div`
+  position: absolute;
+  top: 0px;
+  left: 755px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 66px;
+  height: 63px;
+  cursor: pointer;
+`;
+const Vision = styled.div`
+  position: absolute;
+  top: 0px;
+  left: 833px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 66px;
+  height: 63px;
+  cursor: pointer;
+`;
+const Value = styled.div`
+  position: absolute;
+  top: 0px;
+  left: 911px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 66px;
+  height: 63px;
+  cursor: pointer;
+`;
+const Geeklogo2Icon = styled.img`
+  position: absolute;
+  top: 0px;
+  left: 22px;
+  width: 60px;
+  height: 63px;
+  object-fit: cover;
+`;
+const MainRoot = styled.div`
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 617px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-mini);
+  color: var(--color-gray-400);
+  font-family: var(--font-inter);
+`;
+
+const Main = () => {
+  const navigate = useNavigate();
+
+  const onTeamTextClick = useCallback(() => {
+    navigate("/team");
+  }, [navigate]);
+
+  const onVisionTextClick = useCallback(() => {
+    navigate("/vision");
+  }, [navigate]);
+
+  const onValueTextClick = useCallback(() => {
+    navigate("/");
+  }, [navigate]);
+
+  return (
+    <MainRoot>
+      <Geeklogo1Icon alt="" src="/geeklogo-11@2x.png" />
+      <MainChild />
+      <Home>Home</Home>
+      <Team onClick={onTeamTextClick}>Team</Team>
+      <Vision onClick={onVisionTextClick}>Vision</Vision>
+      <Value onClick={onValueTextClick}>Value</Value>
+      <Geeklogo2Icon alt="logoImg" src={logoImg} />
+    </MainRoot>
+  );
+};
+
+export default Main;
