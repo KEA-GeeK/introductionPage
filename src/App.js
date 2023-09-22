@@ -61,9 +61,9 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Frame />} />
+      <Route path="/frame-3" element={<Frame1 />} />
       <Route path="/frame-2" element={<Frame2 />} />
-      <Route path="/frame-1" element={<Frame1 />} />
-      <Route path="/frame-3" element={<Frame3 />} />
+      <Route path="/frame-1" element={<Frame3 />} />
     </Routes>
   );
 }
