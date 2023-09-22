@@ -79,6 +79,7 @@ const Vision = styled.div`
   width: 265px;
   height: 79px;
 `;
+
 const FrameChild = styled.div`
   position: absolute;
   top: 218.5px;
@@ -151,9 +152,10 @@ const RectangleDiv = styled.div`
   top: 0px;
   left: 0px;
   background-color: var(--color-white);
-  width: 1005px;
+  width: 100%; /* Adjusted to cover the entire width */
   height: 63px;
 `;
+
 const Home = styled.div`
   position: absolute;
   top: 0px;
@@ -162,10 +164,11 @@ const Home = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 66px;
+  width: 23%; /* Adjusted to cover the right side */
   height: 63px;
   cursor: pointer;
 `;
+
 const Team = styled.div`
   position: absolute;
   top: 0px;
@@ -174,11 +177,12 @@ const Team = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 66px;
+  width: 19%; /* Adjusted to cover the right side */
   height: 63px;
   cursor: pointer;
 `;
-const Vision2 = styled.div`
+
+const Vision = styled.div`
   position: absolute;
   top: 0px;
   left: 833px;
@@ -186,10 +190,11 @@ const Vision2 = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 66px;
+  width: 15%; /* Adjusted to cover the right side */
   height: 63px;
   cursor: pointer;
 `;
+
 const Value = styled.div`
   position: absolute;
   top: 0px;
@@ -198,9 +203,10 @@ const Value = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 66px;
+  width: 11%; /* Adjusted to cover the right side */
   height: 63px;
 `;
+
 const Geeklogo1Icon = styled.img`
   position: absolute;
   top: 0px;
@@ -209,6 +215,7 @@ const Geeklogo1Icon = styled.img`
   height: 63px;
   object-fit: cover;
 `;
+
 const CoreValueParentRoot = styled.div`
   position: relative;
   background-color: #d7d7d7;

@@ -95,47 +95,47 @@ const FrameInner = styled.div`
 const Home = styled.div`
   position: absolute;
   top: 0px;
-  left: 677px;
+  left: 66%; /* Adjusted to cover the right side */
   font-size: var(--font-size-mini);
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 66px;
+  width: 23%; /* Adjusted to cover the right side */
   height: 63px;
-  cursor: pointer;
 `;
 const Team = styled.div`
   position: absolute;
   top: 0px;
-  left: 755px;
+  left: 74%; /* Adjusted to cover the right side */
   font-size: var(--font-size-mini);
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 66px;
+  width: 19%; /* Adjusted to cover the right side */
   height: 63px;
+  cursor: pointer;
 `;
 const Vision2 = styled.div`
   position: absolute;
   top: 0px;
-  left: 833px;
+  left: 82%; /* Adjusted to cover the right side */
   font-size: var(--font-size-mini);
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 66px;
+  width: 15%; /* Adjusted to cover the right side */
   height: 63px;
   cursor: pointer;
 `;
 const Value = styled.div`
   position: absolute;
   top: 0px;
-  left: 911px;
+  left: 89%; /* Adjusted to cover the right side */
   font-size: var(--font-size-mini);
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 66px;
+  width: 11%; /* Adjusted to cover the right side */
   height: 63px;
   cursor: pointer;
 `;
