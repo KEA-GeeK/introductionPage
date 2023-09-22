@@ -220,7 +220,7 @@ const Frame1 = () => {
       </Role1Epnjh0807gachonackr>
       <FrameInner alt="" src="/ellipse-4@2x.png" />
       <Role4Eastlighting1gachonac>
-        <P>동현</P>
+        <P>김동현</P>
         <Epnjh0807gachonackr>Role4</Epnjh0807gachonackr>
         <Epnjh0807gachonackr>eastlighting1@gachon.ac.kr</Epnjh0807gachonackr>
       </Role4Eastlighting1gachonac>
