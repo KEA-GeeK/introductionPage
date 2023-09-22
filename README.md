@@ -1,6 +1,6 @@
 # Team Introduction Page
 
-This is the team introduction site for the 3rd Geek team of Gachon University's Kakao Enterprise Academy.
+This is the team introduction site for the 3rd GeeK team of Gachon University's Kakao Enterprise Academy.
 
 ## How to run
 
