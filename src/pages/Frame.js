@@ -1,3 +1,5 @@
+//Custom page - Core Value
+
 import { useCallback } from "react";
 import styled from "styled-components";
 import { useNavigate } from "react-router-dom";
